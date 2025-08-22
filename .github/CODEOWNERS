@@ -1,0 +1,39 @@
+# CODEOWNERS file for social-controller-525
+# Global owners - will be requested for all PRs
+* @Armor-test/team-notifications @Armor-test/dept-ui @Armor-test/squad-mobile
+
+# Directory ownership
+/models/ @Armor-test/squad-reporting @Armor-test/dept-data
+/tools/ @Armor-test/dept-api @Armor-test/grp-reporting
+/styles/ @Armor-test/squad-database @Armor-test/dept-logging @Armor-test/squad-cloud
+/modules/ @Armor-test/dept-security @Armor-test/squad-apps
+/helpers/ @Armor-test/dept-notifications @Armor-test/dept-automation @Armor-test/dept-security
+/pages/ @Armor-test/squad-tooling @Armor-test/dept-automation
+/app/ @Armor-test/dept-data @Armor-test/dept-api @Armor-test/squad-apps
+/web/ @Armor-test/team-reporting @Armor-test/dept-identity @Armor-test/dept-data
+/vendor/ @Armor-test/squad-cloud @Armor-test/squad-performance @Armor-test/squad-tooling
+/services/ @Armor-test/dept-test @Armor-test/team-research @Armor-test/grp-integration
+/hooks/ @Armor-test/dept-billing @Armor-test/squad-product
+/middleware/ @Armor-test/squad-research @Armor-test/dept-release @Armor-test/squad-database
+/lib/ @Armor-test/squad-mobile @Armor-test/squad-qa @Armor-test/dept-data
+
+# File type ownership
+*.html @Armor-test/squad-research @Armor-test/squad-tooling
+*.xml @Armor-test/dept-test @Armor-test/team-notifications @Armor-test/grp-search
+*.scala @Armor-test/dept-api @Armor-test/grp-integration
+*.kt @Armor-test/dept-reporting @Armor-test/unit-test
+*.ts @Armor-test/dept-logging @Armor-test/team-notifications @Armor-test/dept-automation
+*.tsx @Armor-test/grp-reporting @Armor-test/grp-integration @Armor-test/dept-data
+*.c @Armor-test/dept-test @Armor-test/squad-product @Armor-test/unit-test
+*.css @Armor-test/grp-ui @Armor-test/dept-security
+*.swift @Armor-test/squad-ml @Armor-test/grp-storage @Armor-test/squad-product
+*.sh @Armor-test/squad-database @Armor-test/squad-ux
+*.json @Armor-test/team-governance @Armor-test/grp-integration @Armor-test/grp-storage
+*.sql @Armor-test/squad-payments @Armor-test/team-frontend @Armor-test/team-reporting
+*.ini @Armor-test/dept-reporting @Armor-test/squad-reporting
+*.jsx @Armor-test/dept-release @Armor-test/unit-test
+
+# Security and special files
+Dockerfile @Armor-test/devops @Armor-test/infra
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+/src/**/security/ @Armor-test/security @Armor-test/compliance
